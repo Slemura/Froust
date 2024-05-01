@@ -1,0 +1,22 @@
+{
+    "name": "RpDev.Services.UISystem",
+    "rootNamespace": "RpDev.Services.UISystem",
+    "references": [
+        "Unity.ResourceManager",
+        "Unity.Addressables",
+        "VContainer",
+        "UniTask",        
+        "RpDev.UtilitiesAndExtensions",        
+        "RpDev.Services.GenericFactories",
+        "RpDev.Di.Installer.VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

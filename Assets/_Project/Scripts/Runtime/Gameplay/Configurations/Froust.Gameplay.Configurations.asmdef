@@ -1,0 +1,17 @@
+{
+    "name": "Froust.Gameplay.Configurations",
+    "rootNamespace": "Froust.Gameplay.Configurations",
+    "references": [
+        "RpDev.Services.AudioService",
+        "Froust.Gameplay.Views"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edaa6a6c44c4f52ab60a3c8d5877aa3, type: 3}
+  m_Name: Screams Audio Clip Pack
+  m_EditorClassIdentifier: 
+  _entries:
+  - _name: scream_1
+    _audioClip: {fileID: 8300000, guid: c236ee02c05637a438eccc058a2bc227, type: 3}
+    _id: cccd96ec-3868-46ca-8223-bfd99c993bb7
+  - _name: scream_2
+    _audioClip: {fileID: 8300000, guid: 973b93f0016584643ae129f1c4969796, type: 3}
+    _id: 1d4c22bf-a820-4090-b440-da3485531a06
+  - _name: scream_3
+    _audioClip: {fileID: 8300000, guid: 5bde4c75161853f4baa614542b037731, type: 3}
+    _id: be64330c-e6b4-42de-87d1-386d01a9ac5d
+  - _name: scream_4
+    _audioClip: {fileID: 8300000, guid: 0c588519d0fb82a4abfdeac4b7875ed0, type: 3}
+    _id: 1caced91-e8a9-4611-b5e8-cd67b771e9c7
+  - _name: scream_5
+    _audioClip: {fileID: 8300000, guid: 642ee007fbc1316459694ebadf97904b, type: 3}
+    _id: 7d7a72c7-3e88-4162-9494-24fba4ffb94e
+  - _name: scream_6
+    _audioClip: {fileID: 8300000, guid: 249d990dfd923dc4881070592e2792e6, type: 3}
+    _id: ba13cd60-f1c4-4835-9b32-a05ffde34248
+  - _name: scream_7
+    _audioClip: {fileID: 8300000, guid: 135f47b0afe78eb4c8d63ad171e953b1, type: 3}
+    _id: 26c1df96-b9fe-4b1f-9dd5-e5203e501b48
+  - _name: scream_8
+    _audioClip: {fileID: 8300000, guid: d93df56cb072182438e4d17b9a175fda, type: 3}
+    _id: ca2db219-2a41-47ed-92d4-7d9ae51653b3
+  - _name: scream_9
+    _audioClip: {fileID: 8300000, guid: 875cf78b7f9549544b338b2c5712c946, type: 3}
+    _id: 9c12e559-175a-42a4-a2e6-e9285f4775ac
+  - _name: scream_10
+    _audioClip: {fileID: 8300000, guid: 4c065a562400b194aac308874a0b2dd0, type: 3}
+    _id: daf44465-9f7e-4d4b-95c0-46c0823e691d

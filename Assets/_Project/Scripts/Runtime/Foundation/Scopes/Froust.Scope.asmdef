@@ -1,0 +1,25 @@
+{
+    "name": "Froust.Scope",
+    "rootNamespace": "Froust.Scope",
+    "references": [
+        "VContainer",
+        "Froust.UI.Screens",
+        "Froust.Services",        
+        "Froust.PersistentData",
+        "RpDev.Services.AssetProvider",
+        "Froust.EntryPoint",
+        "RpDev.Services.AudioService",
+        "Froust.Audio",        
+        "RpDev.Services.GenericFactories",
+        "RpDev.Di.Installer.VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

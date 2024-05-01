@@ -1,0 +1,14 @@
+{
+    "name": "RpDev.Services.Preferences",
+    "rootNamespace": "RpDev.Services.Preferences",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

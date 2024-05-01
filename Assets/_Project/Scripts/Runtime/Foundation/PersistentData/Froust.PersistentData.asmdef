@@ -1,0 +1,18 @@
+{
+    "name": "Froust.PersistentData",
+    "rootNamespace": "Froust.PersistentData",
+    "references": [
+        "VContainer",
+        "RpDev.Services.Persistence",
+        "RpDev.Di.Installer.VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

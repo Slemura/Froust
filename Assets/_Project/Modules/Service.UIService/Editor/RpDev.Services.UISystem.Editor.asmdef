@@ -1,0 +1,19 @@
+{
+    "name": "RpDev.Services.UISystem.Editor",
+    "rootNamespace": "RpDev.Services.UISystem.Editor",
+    "references": [
+        "Unity.Addressables.Editor",
+        "RpDev.Services.UISystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

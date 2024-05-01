@@ -1,0 +1,16 @@
+{
+    "name": "RpDev.Di.Installer.VContainer",
+    "rootNamespace": "RpDev.Di.Installer.VContainer",
+    "references": [
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

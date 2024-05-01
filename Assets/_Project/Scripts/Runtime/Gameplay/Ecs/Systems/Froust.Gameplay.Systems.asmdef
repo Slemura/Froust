@@ -1,0 +1,30 @@
+{
+    "name": "Froust.Gameplay.Systems",
+    "rootNamespace": "Froust.Gameplay.Systems",
+    "references": [
+        "UniTask",
+        "UniTask.DOTween",
+        "Froust.Gameplay.Model",
+        "Froust.Gameplay.Components",
+        "Froust.Gameplay.Views",
+        "Leopotam.EcsLite",
+        "Leopotam.EcsLite.Di",
+        "Froust.Services",
+        "Froust.UI",        
+        "Froust.Gameplay.Configurations",        
+        "UniRx",
+        "Froust.Gameplay.Camera",
+        "RpDev.Services.AudioService",
+        "Froust.Audio",
+        "Thirdparty.JoystickPack"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

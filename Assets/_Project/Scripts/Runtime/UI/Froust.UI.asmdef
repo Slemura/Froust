@@ -1,0 +1,21 @@
+{
+    "name": "Froust.UI",
+    "rootNamespace": "Froust.UI",
+    "references": [
+        "UniTask",
+        "Unity.TextMeshPro",
+        "Froust.Services",
+        "DOTween.Modules",
+        "RpDev.Services.Preferences",
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

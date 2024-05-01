@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edaa6a6c44c4f52ab60a3c8d5877aa3, type: 3}
+  m_Name: Splashes Audio Clip Pack
+  m_EditorClassIdentifier: 
+  _entries:
+  - _name: splash_1
+    _audioClip: {fileID: 8300000, guid: 091db95db09f2f04ca9a3e86b168b93f, type: 3}
+    _id: 2aca1ac4-2e2e-4b78-a9ed-c55e5b14e1c7
+  - _name: splash_3
+    _audioClip: {fileID: 8300000, guid: 33efc1d6bec653f49b2e45b2c77543a1, type: 3}
+    _id: 409a9512-9d2a-46b2-898d-237168cf3111
+  - _name: splash_4
+    _audioClip: {fileID: 8300000, guid: c0c6f21f08d41ec4ba2333303052a62d, type: 3}
+    _id: 2989dbdf-60f3-4fbc-9f5e-9e57397505fb
+  - _name: splash_5
+    _audioClip: {fileID: 8300000, guid: c0c6f21f08d41ec4ba2333303052a62d, type: 3}
+    _id: c14014e5-75eb-4443-996e-605e3395c10a
+  - _name: splash_6
+    _audioClip: {fileID: 8300000, guid: 44815f0dd4fd1ea45b85b51eff2607ce, type: 3}
+    _id: 67ff2edf-088b-4fc8-8545-954f53945c7a
+  - _name: splash_7
+    _audioClip: {fileID: 8300000, guid: b52ab1f845205134f9644abfabc6d135, type: 3}
+    _id: 9e3fa7e1-daf9-4f1c-a4ef-36a81430b205

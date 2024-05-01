@@ -1,0 +1,16 @@
+{
+    "name": "Froust.Gameplay.Components",
+    "rootNamespace": "Froust.Gameplay.Components",
+    "references": [
+        "Froust.Gameplay.Views"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

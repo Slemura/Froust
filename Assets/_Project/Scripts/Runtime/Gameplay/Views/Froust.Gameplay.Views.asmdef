@@ -1,0 +1,18 @@
+{
+    "name": "Froust.Gameplay.Views",
+    "rootNamespace": "Froust.Gameplay.Views",
+    "references": [
+        "GUID:f519f4696bd8fc64cad311a1edce3542",
+        "GUID:cd47b4a0f0c407d4eb11d7f3b82374e7",
+        "GUID:39a70ed20ab5d0a4a9c159db76d445a7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
