@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edaa6a6c44c4f52ab60a3c8d5877aa3, type: 3}
+  m_Name: Punches Audio Clip Pack
+  m_EditorClassIdentifier: 
+  _entries:
+  - _name: punch_1
+    _audioClip: {fileID: 8300000, guid: 1f53a5fc6bd934e46a5d8cfa8fd27b64, type: 3}
+    _id: 6c16b969-65a4-4383-a018-6be76c6ded4b
+  - _name: punch_2
+    _audioClip: {fileID: 8300000, guid: 2b019c6187fca1e48b47e28c891dc66c, type: 3}
+    _id: 16c2c3ab-3e1c-4bcb-a2c1-7b1ab3b605de
+  - _name: punch_3
+    _audioClip: {fileID: 8300000, guid: 0147661c12ea814488259f82d4a4aed8, type: 3}
+    _id: 1cf50ffb-0e37-4cb3-8cd0-1e3b1f6ea375
+  - _name: punch_4
+    _audioClip: {fileID: 8300000, guid: 1cd9fbc4bb2c19749aa2e61afd72aaaa, type: 3}
+    _id: 421c13ad-c1cb-46c1-a39d-273fa313a1d3
+  - _name: punch_5
+    _audioClip: {fileID: 8300000, guid: a715ddf00ff7f24469c72404e8df85e9, type: 3}
+    _id: 44cd843f-0127-4de6-a8c7-5db02c2fcddd
+  - _name: punch_6
+    _audioClip: {fileID: 8300000, guid: 5174415e9879415498f7b0dd794d19c5, type: 3}
+    _id: 7cbd3aab-bbf4-4792-b362-5524d81fd173

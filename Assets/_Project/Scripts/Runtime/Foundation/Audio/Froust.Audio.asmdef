@@ -1,0 +1,20 @@
+{
+    "name": "Froust.Audio",
+    "rootNamespace": "Froust.Audio",
+    "references": [
+        "RpDev.Services.AudioService",
+        "RpDev.Services.Preferences",
+        "VContainer",
+        "RpDev.UtilitiesAndExtensions",
+        "Froust.Services"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

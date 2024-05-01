@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f15bb5c6ae6d664d91ac00d2c85dff3, type: 3}
+  m_Name: EnemyConfiguration
+  m_EditorClassIdentifier: 
+  _characters:
+  - _characterView: {fileID: 5548322406745999152, guid: e169b7f12a7bf5941af201a392fbe7b1, type: 3}
+    _pushBackForce: 8
+    _responsePushForce: 10
+  - _characterView: {fileID: 7691599203124191367, guid: 49d44fbf1dd4c394eae5e2858ff4496c, type: 3}
+    _pushBackForce: 2
+    _responsePushForce: 40
+  _snowdriftView: {fileID: 5293309877497516515, guid: 8be877f29e0c3fe4cbe336a7d8c4f390, type: 3}
+  _snowdriftRiseTimeMin: 2.5
+  _snowdriftRiseTimeMax: 3.5
+  _kingSnowdriftRiseTimeMultiplier: 5
+  _initialSpawnDelay: 2
+  _startEnemyCount: 3
+  _baseSpawnInterval: 3
+  _intervalIncreasePercent: 0.197
+  _intervalDecreasePercent: 0.231
+  _baseSpawnCount: 1
+  _spawnIncreasePercent: 0.143
+  _spawnDecreasePercent: 0.237
+  _difficultyChangeInterval: 4
+  _stopPushDelay: 1
+  _dieCoordinate: -10
+  _enemiesCountToSpawnKing: 10

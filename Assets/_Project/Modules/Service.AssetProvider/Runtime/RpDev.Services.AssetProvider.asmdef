@@ -1,0 +1,21 @@
+{
+    "name": "RpDev.Services.AssetProvider",
+    "rootNamespace": "RpDev.Services.AssetProvider",
+    "references": [
+        "UniTask.Addressables",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "UniTask",
+        "VContainer",
+        "RpDev.Di.Installer.VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

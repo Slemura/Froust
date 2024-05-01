@@ -1,0 +1,23 @@
+{
+    "name": "Froust.UI.Screens",
+    "rootNamespace": "Froust.UI.Screens",
+    "references": [
+        "UniTask",
+        "Unity.TextMeshPro",        
+        "Froust.Services",
+        "DOTween.Modules",
+        "VContainer",
+        "Froust.UI",
+        "UniRx",
+        "RpDev.Services.UISystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

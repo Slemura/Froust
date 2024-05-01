@@ -1,0 +1,26 @@
+{
+    "name": "Froust.Gameplay",
+    "rootNamespace": "Froust.Gameplay",
+    "references": [
+        "Leopotam.EcsLite",
+        "Leopotam.EcsLite.Di",
+        "Leopotam.EcsLite.UnityEditor",
+        "Leopotam.EcsLite.UnityEditor.Runtime",
+        "UniTask",
+        "Froust.Gameplay.Systems",
+        "Froust.Gameplay.Components",
+        "Froust.Gameplay.Configurations",
+        "Froust.Gameplay.Model",
+        "Froust.Gameplay.Views",
+        "Froust.Audio"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

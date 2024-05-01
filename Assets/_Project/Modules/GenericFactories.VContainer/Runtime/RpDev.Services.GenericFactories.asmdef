@@ -1,0 +1,17 @@
+{
+    "name": "RpDev.Services.GenericFactories",
+    "rootNamespace": "RpDev.Services.GenericFactories",
+    "references": [
+        "VContainer",        
+        "RpDev.Di.Installer.VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

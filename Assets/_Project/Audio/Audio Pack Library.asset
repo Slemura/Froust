@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5266e0114148a7149979b4273130f341, type: 3}
+  m_Name: Audio Pack Library
+  m_EditorClassIdentifier: 
+  _audioMixer: {fileID: 24100000, guid: fce46f01835dbee4e962130ba8dcd9ff, type: 2}
+  _punchAudioPack: {fileID: 11400000, guid: 0aed85a4c6e6e944fbe0be2add3b451c, type: 2}
+  _screamAudioPack: {fileID: 11400000, guid: c70332f596f3e3646b5ba3695d000d2b, type: 2}
+  _splashAudioPack: {fileID: 11400000, guid: 77614f027bdb41c4c916f4fcc4675766, type: 2}
+  _commonAudioClipPack: {fileID: 11400000, guid: 3399a056e0c116840b5fc9b662466ad3, type: 2}
+  _iceFoeSinkSfx:
+    _audioClipPack: {fileID: 11400000, guid: 3399a056e0c116840b5fc9b662466ad3, type: 2}
+    _id: 34ea6744-91bb-4c04-8134-81980f5f3c79
+    _volume: 1
+  _gameOverSfx:
+    _audioClipPack: {fileID: 11400000, guid: 3399a056e0c116840b5fc9b662466ad3, type: 2}
+    _id: 13ee5dd4-5637-4609-b538-64c2ad72bbf7
+    _volume: 1
+  _musicAudioPack: {fileID: 11400000, guid: 192bac6b9ca78f84fa52e1e7217612b0, type: 2}

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 14897d8ecc27f734b9886520495aaa48
+  m_SerializeEntries:
+  - m_GUID: 881b2bf258ab13c4b92b274bde1332af
+    m_Address: Loading Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui screen
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8eadd9fc421a5d4c903b5f15c099704
+    m_Address: Main Menu Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui screen
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5db3b68cd458dbe4da7699a26c8ca5bd
+    m_Address: Game Over Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui screen
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94277fb46b5660e45a04f2e4edf723cb
+    m_Address: GamePlay Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ui screen
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c76c82037541a6e40bd19852057f1b6c
+    m_Address: LevelView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aebb45746f8ebde45ae651a182aee0e7
+    m_Address: CameraConfiguration
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5be2f12b8f099bc47af298ff316ffa35
+    m_Address: EnemyConfiguration
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cc7f377f2bc9604991e2b9993c7f404
+    m_Address: GroundConfiguration
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07743f8c71113e345b5cb6af07276494
+    m_Address: PlayerConfiguration
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 539ed73f14c5df040aae6813de035fd1
+    m_Address: AudioPackLibrary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: fcce25a37b70a1649bfee7eab6a247a0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c4464ff8c6729214b9c290bbb0646ccf, type: 2}
+    - {fileID: 11400000, guid: cf30bb782b5e82343a5089fb12314995, type: 2}

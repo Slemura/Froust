@@ -1,0 +1,33 @@
+{
+    "name": "Froust.EntryPoint",
+    "rootNamespace": "Froust.EntryPoint",
+    "references": [
+        "VContainer",
+        "UniTask",
+        "UniRx",
+        "RpDev.Services.AssetProvider",
+        "RpDev.UtilitiesAndExtensions",
+        "RpDev.Services.UISystem",
+        "RpDev.Services.AsyncStateMachine",
+        "RpDev.Services.AudioService",
+        "RpDev.Services.GenericFactories",
+        "RpDev.Di.Installer.VContainer",
+        "Froust.Gameplay.Configurations",
+        "Froust.Gameplay.Views",
+        "Froust.Gameplay.Model",        
+        "Froust.UI.Screens",
+        "Froust.Audio",
+        "Froust.Gameplay",
+        "Froust.PersistentData",
+        "Froust.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
