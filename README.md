@@ -1,20 +1,18 @@
 
 # Игра Ludum Dare: Froust!
 
-## Оглавление
+"Froust!" - это игра, созданная в рамках хакатона Ludum Dare. В этой игре вы воплощаетесь в роль снеговика, который обитает на льдине в снежном царстве. Ваша цель - продержаться как можно дольше на льдине, сталкивая снеговиков противников со льдины.  Геймплей можно посмотреть по [ссылке](https://ebrietas.itch.io/froust)
 
-1. [Описание](#описание)
-2. [Управление](#управление)
+## Содержание
+
+1. [Управление](#управление)
+2. [Цель этого репозитория](#цель-этого-репозитория)
 3. [Технологии](#технологии)
-4. [Структура папок проекта](#структура-папок-проекта)
-5. [Инструкции по установке и запуску](#инструкции-по-установке-и-запуску)
+4. [Инструкции по установке и запуску](#инструкции-по-установке-и-запуску)
+5. [Структура проекта](#структура-папок-проекта)
 6. [Основные точки входа](#основные-точки-входа)
 7. [Скриншоты](#скриншоты)
 8. [Участие](#участие)
-
-## Описание
-
-"Froust!" - это игра, созданная в рамках хакатона Ludum Dare. В этой игре вы воплощаетесь в роль снеговика, который обитает на льдине в снежном царстве. Ваша цель - продержаться как можно дольше на льдине, сталкивая снеговиков противников со льдины.  Геймплей можно посмотреть по [ссылке](https://ebrietas.itch.io/froust)
 
 ## Управление
 
@@ -75,9 +73,10 @@
 		  - **`Textures`**: Текстуры и спрайты
 		  
 ## Основные точки входа
-- **/Scripts/Runtime/Foundation/Scopes/ProjectLifetimeScope.cs**: Основной VContainer скоуп в котором описываются используемые модули и части логики.
-- **/Scripts/Runtime/Foundation/EntryPoint/AppCore.cs**: Ядро окружения в котором инициализируется машина состояний и описываются отношения между состояниями.
-- **/Scripts/Runtime/Foundation/EntryPoint/States/***: Список состояний описывающий весь игровой процесс
+- **[`/Scripts/Runtime/Foundation/Scopes/ProjectLifetimeScope.cs`](https://github.com/Slemura/Froust/blob/main/Assets/_Project/Scripts/Runtime/Foundation/Scopes/ProjectLifetimeScope.cs)**: Основной VContainer скоуп в котором описываются используемые модули и части логики.
+- **[`/Scripts/Runtime/Foundation/EntryPoint/AppCore.cs`](https://github.com/Slemura/Froust/blob/main/Assets/_Project/Scripts/Runtime/Foundation/EntryPoint/AppCore.cs)**: Ядро окружения в котором инициализируется машина состояний и описываются отношения между состояниями.
+- **[`/Scripts/Runtime/Foundation/EntryPoint/States/`](https://github.com/Slemura/Froust/tree/main/Assets/_Project/Scripts/Runtime/Foundation/EntryPoint/States)***: Список состояний описывающий весь игровой процесс
+- **[`/Scripts/Runtime/Gameplay/GameplayEcsStartup.cs`](https://github.com/Slemura/Froust/blob/main/Assets/_Project/Scripts/Runtime/Gameplay/GameplayEcsStartup.cs)***: Обертка над ECS для создание геймплейной логики
 
 ## Скриншоты
 
