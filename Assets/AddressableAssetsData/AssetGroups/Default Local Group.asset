@@ -17,12 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 14897d8ecc27f734b9886520495aaa48
   m_SerializeEntries:
-  - m_GUID: 881b2bf258ab13c4b92b274bde1332af
-    m_Address: Loading Screen
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - ui screen
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8eadd9fc421a5d4c903b5f15c099704
     m_Address: Main Menu Screen
     m_ReadOnly: 0
@@ -68,6 +62,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 539ed73f14c5df040aae6813de035fd1
     m_Address: AudioPackLibrary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db0b99acd74295e40a1131cd4f3ac989
+    m_Address: UIAtlas
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
