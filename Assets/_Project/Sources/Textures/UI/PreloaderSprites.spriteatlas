@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PreloaderSprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 80
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5c27bc2a186ad0c49b42529a8eebe96f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a219ebc43747ef047b55e0a5a1130d27: 21300000
+    - 799be9479a578bc4eae85e70c151b9fe: 21300000
+    - 221003b9cb6bb0d48b84668388ba789d: 21300000
+    - 97ba4dba504267b4db2f0c9eff3ef724: 21300000
+    - 62b2f5ee27c89554fbcc37fa2d8026e5: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a219ebc43747ef047b55e0a5a1130d27, type: 3}
+  - {fileID: 21300000, guid: 799be9479a578bc4eae85e70c151b9fe, type: 3}
+  - {fileID: 21300000, guid: 221003b9cb6bb0d48b84668388ba789d, type: 3}
+  - {fileID: 21300000, guid: 97ba4dba504267b4db2f0c9eff3ef724, type: 3}
+  - {fileID: 21300000, guid: 62b2f5ee27c89554fbcc37fa2d8026e5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - s6_00005
+  - s6_00003
+  - s6_00002
+  - Loading
+  - PreloaderGradient
+  m_RenderDataMap: {}
+  m_Tag: PreloaderSprites
+  m_IsVariant: 0
