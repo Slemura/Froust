@@ -5,7 +5,7 @@ using UnityEngine.UI;
 namespace Froust.Runtime.UI
 {
     [RequireComponent(typeof(Button))]
-    public class MusicButton : MonoBehaviour
+    public class SimpleToggleButton : MonoBehaviour
     {
         [SerializeField] private Image _onImage;
         [SerializeField] private Image _offImage;

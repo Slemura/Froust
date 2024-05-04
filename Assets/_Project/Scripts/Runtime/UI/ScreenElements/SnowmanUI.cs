@@ -2,8 +2,7 @@ using System.Collections;
 using DG.Tweening;
 using UnityEngine;
 
-
-namespace Froust.Runtime.Screens
+namespace Froust.Runtime.UI
 {
 	public class SnowmanUI : MonoBehaviour
 	{

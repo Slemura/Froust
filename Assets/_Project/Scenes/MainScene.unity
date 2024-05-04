@@ -184,6 +184,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 132628333, guid: 881b2bf258ab13c4b92b274bde1332af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863593157, guid: 881b2bf258ab13c4b92b274bde1332af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 762085894520753765, guid: 881b2bf258ab13c4b92b274bde1332af, type: 3}
       propertyPath: m_Name
       value: Loading Screen

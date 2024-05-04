@@ -39,8 +39,9 @@ namespace Froust
             });
             
             _audioService.Init();
-            _audioService.EnableMusic(_preferences.IsMusicEnabled.Value);
-            _audioService.EnableSound(_preferences.IsSoundEnabled.Value);
+            
+            OnSoundEnableChanged(_preferences.IsSoundEnabled.Value);
+            OnMusicEnableChanged(_preferences.IsMusicEnabled.Value);
             
             _audioPackLibrary.MusicAudioPack.PlayRandomAsMusic();
         }
@@ -76,15 +77,15 @@ namespace Froust
             _preferences.IsSoundEnabled.RemoveListener(OnSoundEnableChanged);
         }
         
-        
         private void OnSoundEnableChanged(bool value)
         {
-            _audioService.EnableSound(_preferences.IsSoundEnabled.Value);
+            _audioService.EnableChannel(AudioClipType.Sfx, value);
+            _audioService.EnableChannel(AudioClipType.UI, value);
         }
 
         private void OnMusicEnableChanged(bool value)
         {
-            _audioService.EnableMusic(_preferences.IsMusicEnabled.Value);
+            _audioService.EnableChannel(AudioClipType.Music, value);
         }
     }
 }

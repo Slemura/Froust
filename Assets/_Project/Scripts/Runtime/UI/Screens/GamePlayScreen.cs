@@ -10,12 +10,14 @@ namespace Froust.Runtime.Screens
         [SerializeField] private WarningOverlay _warningOverlay;
         [SerializeField] private GameplayTimeCounterView _gameplayTimeCounterView;
         [SerializeField] private TMP_Text _enemyInfoTxt;
-        [SerializeField] private MusicButton _musicButton;
+        [SerializeField] private SimpleToggleButton _musicButton;
+        [SerializeField] private SimpleToggleButton _soundButton;
         
         public WarningOverlay WarningOverlay => _warningOverlay;
         public GameplayTimeCounterView LevelTimeCounterView => _gameplayTimeCounterView;
 
-        public MusicButton MusicButton => _musicButton;
+        public SimpleToggleButton MusicButton => _musicButton;
+        public SimpleToggleButton SoundButton => _soundButton;
 
         public void SetupEnemyInfo(string enemyDestroyed)
         {
