@@ -124,10 +124,25 @@ namespace RpDev.Services.AudioService
         {
             _mixer.SetFloat(MasterVolumeKey, state ? 0 : -80);
         }
+        
+        public void EnableUISounds(bool state)
+        {
+            _audioGroups[AudioClipType.UI].AudioSource.mute = !state;
+        }
+
+        public void EnableSfx(bool state)
+        {
+            _audioGroups[AudioClipType.Sfx].AudioSource.mute = !state;
+        }
 
         public void EnableMusic(bool state)
         {
             _audioGroups[AudioClipType.Music].AudioSource.mute = !state;
+        }
+
+        public void EnableChannel(AudioClipType channel, bool status)
+        {
+            _audioGroups[channel].AudioSource.mute = !status;
         }
 
         public void Dispose()

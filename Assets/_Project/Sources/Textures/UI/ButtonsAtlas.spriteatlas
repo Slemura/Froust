@@ -51,6 +51,8 @@ SpriteAtlas:
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
     - 47aa40529adfd4622ac0145defc41c20: 21300000
+    - 2b09e99203eb7914abca36cb53df89a8: 21300000
+    - 44916fe74d74687409b01f9b43b90547: 21300000
     - 9b2dd3f7f521c49b5b5b7579ab1dd65b: 21300000
     - 535d5068f6e6f4174a907fe1688dc8c1: 21300000
     - 39a98df9fe6984974a86d60cae606989: 21300000
@@ -58,12 +60,16 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 47aa40529adfd4622ac0145defc41c20, type: 3}
+  - {fileID: 21300000, guid: 2b09e99203eb7914abca36cb53df89a8, type: 3}
+  - {fileID: 21300000, guid: 44916fe74d74687409b01f9b43b90547, type: 3}
   - {fileID: 21300000, guid: 9b2dd3f7f521c49b5b5b7579ab1dd65b, type: 3}
   - {fileID: 21300000, guid: 535d5068f6e6f4174a907fe1688dc8c1, type: 3}
   - {fileID: 21300000, guid: 39a98df9fe6984974a86d60cae606989, type: 3}
   - {fileID: 21300000, guid: 186191ea380174ca9b4fe72856cda52c, type: 3}
   m_PackedSpriteNamesToIndex:
   - Pictoicon_Tap
+  - Pictoicon_Sound
+  - Pictoicon_Sound_Off
   - Pictoicon_Music_Off
   - Btn_MainButton_White
   - Pictoicon_Direction

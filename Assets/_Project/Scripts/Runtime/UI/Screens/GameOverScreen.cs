@@ -13,9 +13,11 @@ namespace Froust.Runtime.Screens
         [SerializeField] private TMP_Text _bestScoreText;
         [SerializeField] private TMP_Text _bestResultText;
         [SerializeField] private Button _startGameButton;
-        [SerializeField] private MusicButton _musicButton;
+        [SerializeField] private SimpleToggleButton _musicButton;
+        [SerializeField] private SimpleToggleButton _soundButton;
         public event Action OnStartGameClicked;
-        public MusicButton MusicButton => _musicButton;
+        public SimpleToggleButton MusicButton => _musicButton;
+        public SimpleToggleButton SoundButton => _soundButton;
 
         public void SetupInfo(int currentStandSeconds, int bestScore)
         {

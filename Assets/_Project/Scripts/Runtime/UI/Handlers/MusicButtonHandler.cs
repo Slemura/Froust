@@ -3,14 +3,12 @@ using Froust.Runtime.Services.Preferences;
 using Froust.Runtime.UI;
 using VContainer;
 
-namespace Froust.UI.ScreenElements
+namespace Froust.UI.Handlers
 {
     public class MusicButtonHandler : IDisposable
     {
         private Preferences _preferences;
-        private MusicButton _musicButton;
-
-        public MusicButtonHandler() {}
+        private SimpleToggleButton _musicButton;
         
         [Inject]
         public void AddDependencies(Preferences preferences)
@@ -18,7 +16,7 @@ namespace Froust.UI.ScreenElements
             _preferences = preferences;
         }
 
-        public void AddMusicButtonView(MusicButton musicButton)
+        public void AddMusicButtonView(SimpleToggleButton musicButton)
         {
             _musicButton = musicButton;
             _musicButton.OnClicked += OnMusicButtonClicked;
