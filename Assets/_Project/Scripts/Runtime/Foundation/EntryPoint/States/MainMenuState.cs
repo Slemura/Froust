@@ -13,6 +13,7 @@ namespace Froust.EntryPoint.States
         private readonly IRootStatesHandler _rootStatesHandler;
         private readonly UIMediatorFactory _uiMediatorFactory;
         private readonly LoadingScreen _loadingScreen;
+        
         private MainMenuScreen _mainMenuScreen;
         private MainMenuScreenMediator _mainMenuScreenMediator;
 

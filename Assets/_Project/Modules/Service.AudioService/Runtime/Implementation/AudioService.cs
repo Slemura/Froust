@@ -36,6 +36,40 @@ namespace RpDev.Services.AudioService
             AudioClipPackEntry.PlaybackRequested += OnPlaybackRequested;
         }
 
+        public void EnableSound(bool state)
+        {
+            _mixer.SetFloat(MasterVolumeKey, state ? 0 : -80);
+        }
+        
+        public void EnableUISounds(bool state)
+        {
+            _audioGroups[AudioClipType.UI].AudioSource.mute = !state;
+        }
+
+        public void EnableSfx(bool state)
+        {
+            _audioGroups[AudioClipType.Sfx].AudioSource.mute = !state;
+        }
+
+        public void EnableMusic(bool state)
+        {
+            _audioGroups[AudioClipType.Music].AudioSource.mute = !state;
+        }
+
+        public void EnableChannel(AudioClipType channel, bool status)
+        {
+            _audioGroups[channel].AudioSource.mute = !status;
+        }
+
+        public void Dispose()
+        {
+            foreach (var groupInfo in _audioGroups.Values)
+                groupInfo.Dispose();
+
+            AudioClipReference.PlaybackRequested -= OnPlaybackRequested;
+            AudioClipPackEntry.PlaybackRequested -= OnPlaybackRequested;
+        }
+        
         private void Awake()
         {
             DontDestroyOnLoad(gameObject);
@@ -118,40 +152,6 @@ namespace RpDev.Services.AudioService
                 audioSource,
                 interruptOnSceneChange
             ));
-        }
-
-        public void EnableSound(bool state)
-        {
-            _mixer.SetFloat(MasterVolumeKey, state ? 0 : -80);
-        }
-        
-        public void EnableUISounds(bool state)
-        {
-            _audioGroups[AudioClipType.UI].AudioSource.mute = !state;
-        }
-
-        public void EnableSfx(bool state)
-        {
-            _audioGroups[AudioClipType.Sfx].AudioSource.mute = !state;
-        }
-
-        public void EnableMusic(bool state)
-        {
-            _audioGroups[AudioClipType.Music].AudioSource.mute = !state;
-        }
-
-        public void EnableChannel(AudioClipType channel, bool status)
-        {
-            _audioGroups[channel].AudioSource.mute = !status;
-        }
-
-        public void Dispose()
-        {
-            foreach (var groupInfo in _audioGroups.Values)
-                groupInfo.Dispose();
-
-            AudioClipReference.PlaybackRequested -= OnPlaybackRequested;
-            AudioClipPackEntry.PlaybackRequested -= OnPlaybackRequested;
         }
     }
 }

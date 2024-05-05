@@ -12,6 +12,7 @@ using RpDev.Services.UI.Mediators;
 using RpDev.Services.AsyncStateMachine.Abstractions;
 using RpDev.Services.GenericFactories.VContainer;
 using UniRx;
+using UnityEngine;
 
 namespace Froust.EntryPoint.States
 {
@@ -51,7 +52,7 @@ namespace Froust.EntryPoint.States
         {
             CreateEcsGameplay();
             await ShowGameplayScreen();
-            await LaunchEcsGameplay();
+            LaunchEcsGameplay().Forget();
         }
 
         public override async UniTask OnExit(CancellationToken cancellationToken)
@@ -61,9 +62,10 @@ namespace Froust.EntryPoint.States
 
         public override void Dispose()
         {
+            while (_disposables.Count > 0)
+                _disposables.Pop()?.Dispose();
+         
             _iuiService.DestroyScreen(_gameplayScreen);
-            _gameplayScreenMediator?.Dispose();
-            _ecsGameplay?.Dispose();
             
             _gameplayScreenMediator = null;
             _ecsGameplay = null;
@@ -76,6 +78,8 @@ namespace Froust.EntryPoint.States
             _gameplayScreenMediator.Initialize();
             _gameplayScreenMediator.AddGameplayModel(_ecsGameplay.GetGameplayModel());
             
+            _disposables.Push(_gameplayScreenMediator);
+            
             await _gameplayScreen.FadeInAsync();
         }
 
@@ -85,6 +89,8 @@ namespace Froust.EntryPoint.States
             _ecsGameplay.AddResourcesModel(_gameplayResourcesModel);
             _ecsGameplay.AddAudioHandler(_gameAudioHandler);
             _ecsGameplay.Init();
+            
+            _disposables.Push(_ecsGameplay);
         }
 
         private async UniTask LaunchEcsGameplay()
@@ -93,13 +99,6 @@ namespace Froust.EntryPoint.States
             _disposables.Push(Observable.EveryFixedUpdate().Subscribe(_ => FixedTick()));
 
             var gameplayResult = await _ecsGameplay.Start();
-
-            _ecsGameplay.Dispose();
-            _ecsGameplay = null;
-
-            while (_disposables.Count > 0)
-                _disposables.Pop().Dispose();
-
             var secondsInGameplay = (int)gameplayResult.GameplayTime;
 
             _userDataHandler.TrySetBestScore(secondsInGameplay, gameplayResult.DeadEnemyCountReadOnly.Value);

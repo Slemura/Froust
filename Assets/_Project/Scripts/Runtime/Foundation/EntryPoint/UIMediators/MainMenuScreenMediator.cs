@@ -26,7 +26,7 @@ namespace Froust.EntryPoint
             _userData = userData;
             _plainClassFactory = plainClassFactory;
         }
-        
+
         public void Initialize()
         {
             _musicButtonHandler = _plainClassFactory.Create<MusicButtonHandler>();
@@ -44,9 +44,7 @@ namespace Froust.EntryPoint
         public void Dispose()
         {
             while (_disposables.Count > 0)
-            {
                 _disposables.Pop().Dispose();
-            }
         }
     }
 }

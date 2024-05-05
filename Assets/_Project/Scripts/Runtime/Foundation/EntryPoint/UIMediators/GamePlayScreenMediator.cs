@@ -23,7 +23,7 @@ namespace Froust.EntryPoint.UIMediators
         private float _gameplayTime;
         
         [Inject]
-        public void AddDependencies(IPlainClassFactory plainClassFactory)
+        private void AddDependencies(IPlainClassFactory plainClassFactory)
         {
             _plainClassFactory = plainClassFactory;
         }
@@ -46,6 +46,12 @@ namespace Froust.EntryPoint.UIMediators
             _disposables.Push(gameplayModel.StartLevelObservable.Subscribe(_ => AddTimeTick()));
         }
 
+        public void Dispose()
+        {
+            while (_disposables.Count > 0)
+                _disposables.Pop().Dispose();
+        }
+
         private void AddTimeTick()
         {
             _disposables.Push(Observable.EveryUpdate().Subscribe(Tick));
@@ -59,15 +65,7 @@ namespace Froust.EntryPoint.UIMediators
         private void Tick(long _)
         {
             _gameplayTime += Time.deltaTime;
-            View.LevelTimeCounterView.UpdateTimeInLevel(Mathf.FloorToInt(_gameplayTime));
-        }
-
-        public void Dispose()
-        {
-            while (_disposables.Count > 0)
-            {
-                _disposables.Pop().Dispose();
-            }
+            View.LevelTimeCounterView.UpdateTimeInLevel(Mathf.RoundToInt(_gameplayTime));
         }
     }
 }

@@ -45,6 +45,20 @@ namespace Froust.EntryPoint.States
             _rootStatesHandler.GoToMainMenuState();
         }
 
+        public override UniTask OnExit(CancellationToken cancellationToken)
+        {
+            return UniTask.CompletedTask;
+        }
+
+        public override void Dispose()
+        {
+            _playerConfiguration = null;
+            _groundConfiguration = null;
+            _cameraConfiguration = null;
+            _enemyConfiguration = null;
+            _levelView = null;
+        }
+        
         private async UniTask LoadPlayerConfiguration()
         {
             _playerConfiguration = await _assetProvider.LoadAsset<PlayerConfiguration>("PlayerConfiguration", default);
@@ -75,20 +89,6 @@ namespace Froust.EntryPoint.States
         {
             var audioPackLibrary = await _assetProvider.LoadAsset<AudioPackLibrary>("AudioPackLibrary", default);
             _gameAudioHandler.AddAudioLibrary(audioPackLibrary);
-        }
-
-        public override UniTask OnExit(CancellationToken cancellationToken)
-        {
-            return UniTask.CompletedTask;
-        }
-
-        public override void Dispose()
-        {
-            _playerConfiguration = null;
-            _groundConfiguration = null;
-            _cameraConfiguration = null;
-            _enemyConfiguration = null;
-            _levelView = null;
         }
     }
 }
