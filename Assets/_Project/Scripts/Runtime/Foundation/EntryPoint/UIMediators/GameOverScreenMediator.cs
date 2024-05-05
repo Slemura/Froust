@@ -17,7 +17,7 @@ namespace Froust.EntryPoint
         private SoundButtonHandler _soundButtonHandler;
         
         [Inject]
-        public void SetDependencies(IPlainClassFactory plainClassFactory)
+        private void SetDependencies(IPlainClassFactory plainClassFactory)
         {
             _plainClassFactory = plainClassFactory;
         }
